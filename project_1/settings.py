@@ -45,7 +45,7 @@ DEBUG = True
 #         file.write(url + '\n') 
 #         file.write(url2 + '\n')
 
-# ALLOWED_HOSTS = ['localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1']
 # current_ip = get_local_ip()
 # if current_ip:
 #     ALLOWED_HOSTS.append(current_ip)
@@ -54,7 +54,7 @@ DEBUG = True
 #END HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
 
 
-
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
